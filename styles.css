@@ -1,0 +1,53 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: hsl(0, 0%, 0%);
+        }
+        header {
+            background: url('industrial-ventilation.jpg') no-repeat center center/cover;
+            color: #db6f16;
+            padding: 60px 20px;
+            text-align: center;
+            background-color: #e1f08f;
+        }
+        header h1 {
+            font-size: 48px;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+            font-size: large;
+            background-color: rgb(255, 255, 255);
+        }
+        section p {
+            margin-top: 15px;
+        }
+        section img {
+            background: #f0f0f0;
+            width: 100%;
+            height: auto;
+            margin: 20px 0;
+            text-align: center;
+            color: #999;
+            border: 1px solid #ccc;
+            display: block;
+            max-width: 100%;
+            object-fit: cover;
+        }
+        footer img {
+            width: 50%;
+            height: auto;
+            margin-right: 100px;
+            margin-left: 80px;
+            margin-top: 10px;
+            text-align: center;
+            color: #999;
+            border: 1px solid #ccc;
+            display: block;
+            max-width: 100%;
+            object-fit: cover;
+        }
+        
