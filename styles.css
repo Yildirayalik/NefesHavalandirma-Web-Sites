@@ -54,9 +54,15 @@
             max-width: 100%;
             object-fit: cover;
         }
-
         .main {
             background-color: #f5f4e0;
             padding: 50px;
             border-radius: 50px;
+        }
+        .main h3 {
+            font-size: 30px;
+            background-color: rgb(228, 231, 37);
+        }
+        .main p {
+            font-size: 20px;
         }
