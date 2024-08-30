@@ -4,15 +4,17 @@
             margin: 0;
             padding: 0;
             color: hsl(0, 0%, 0%);
+            background-color: #f5f4e0;
         }
-        header {
+        .header {
             background: url('industrial-ventilation.jpg') no-repeat center center/cover;
             color: #db6f16;
             padding: 60px 20px;
             text-align: center;
-            background-color: #e1f08f;
+            background-color: #f5f4e0;
+            border-radius: 50px;
         }
-        header h1 {
+        .header h1 {
             font-size: 48px;
         }
         section {
@@ -20,7 +22,8 @@
             max-width: 1200px;
             margin: auto;
             font-size: large;
-            background-color: rgb(255, 255, 255);
+            background-color: #f5f4e0;
+            
         }
         section p {
             margin-top: 15px;
@@ -37,6 +40,7 @@
             max-width: 100%;
             object-fit: cover;
         }
+
         footer img {
             width: 50%;
             height: auto;
@@ -50,4 +54,9 @@
             max-width: 100%;
             object-fit: cover;
         }
-        
+
+        .main {
+            background-color: #f5f4e0;
+            padding: 50px;
+            border-radius: 50px;
+        }
